@@ -1,1 +1,44 @@
+*{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
 
+header{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.nav_bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: cadetblue;
+  width: 960px;
+  margin: 1rem auto;
+}
+
+.nav_img_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav_img_container img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav ul li{
+  padding: 1rem 2rem;
+}
