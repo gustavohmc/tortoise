@@ -46,21 +46,11 @@ nav ul li{
   padding: 1rem 2rem;
 }
 
-.container{
-  text-align: right;
-}
-
 .title{
   margin-top: 10rem;
-  background-color: white;
   color: black;
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.2;
-  padding: 1.5rem 5rem;
-  width: max-content;
   text-align: right;
-  display: inline-block;
+  margin-right: 9rem;
 }
 
 
@@ -68,4 +58,10 @@ nav ul li{
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+  background-color: white;
+  margin: 0;
+  display: inline-block;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+
 }
