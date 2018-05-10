@@ -141,3 +141,40 @@ footer div{
   display: inline;
   align-content: center;
 }
+
+
+/* MEDIA QUERY AREA */
+
+@media only screen and (max-width: 1024px){
+
+  html{
+    max-width: 1024px;
+  }
+
+  .nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: cadetblue;
+    width: 100%;
+    margin: -10px auto;
+  }
+
+  header{
+    height: 22rem;
+  }
+
+  .title{
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .title h1{
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+
+
+} /*END OF 1024PX RULES*/
