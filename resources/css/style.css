@@ -106,6 +106,7 @@ nav ul li{
   display: flex;
   justify-content: center;
   margin-top: -1rem;
+  margin-bottom: 5rem;
 }
 
 .info_col{
@@ -119,4 +120,24 @@ nav ul li{
   width: 10rem;
   font-weight: bold;
   padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+footer{
+background-color: azure;
+height: 9rem;
+display: flex;
+align-items: center;
+width: 960px;
+margin: 0 auto;
+}
+
+footer img{
+  display: inline;
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+footer div{
+  display: inline;
+  align-content: center;
 }
