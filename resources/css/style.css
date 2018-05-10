@@ -101,3 +101,22 @@ nav ul li{
   margin: 1rem;
   text-align: center;
 }
+
+.info{
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.info_col{
+  width: 25%;
+  padding: 1rem;
+}
+
+.info_img p{
+  color: white;
+  background: cadetblue;
+  width: 10rem;
+  font-weight: bold;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
