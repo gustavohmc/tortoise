@@ -65,3 +65,39 @@ nav ul li{
   padding: 1.5rem 5rem;
 
 }
+
+.features{
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.feat_col{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  height: 8rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.feat_img{
+  text-align: center;
+}
+
+#paper{
+  width: 3.5rem;
+}
+
+#truck,
+#ruler{
+  width: 5rem;
+}
+
+.feat_txt{
+  margin: 1rem;
+  text-align: center;
+}
